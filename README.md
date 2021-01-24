@@ -16,7 +16,7 @@ The cashier robot only knows how to do very minimal tasks.
 The cashier robot has three functionalities: receiving money, calculating how many buns you can buy and 
 calculating how much change the customer gets back.
 
-There's a function called `payPorkBuns`. This function receives the money as the argument. In this case, it takes 5 dollars as a value.
+If you look at the code, there's a function called `payPorkBuns`. This function receives the money. In this case, it takes 5 dollars as a value.
 
 Inside `payPorkBuns`, there are two other functions: `calculatePorkBuns` and `calculateChange`
 
