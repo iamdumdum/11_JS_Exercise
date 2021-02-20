@@ -1,6 +1,6 @@
 
 var onePorkBuns = 2;
-var porkBuns;
+var porkBuns; 
 var change;
 
 function payPorkBuns(money) {
@@ -19,14 +19,16 @@ function payPorkBuns(money) {
 
 function calculatePorkBuns(money, cost) {
     // write code here below this line
-    
-
+    var buns = money/cost  
+    return Math.floor(buns);
     // write code here above this line
 }
 
 function calculateChange(money, cost) {
     // write code here below this line
+    var porkBuns = money%cost
     
+    return porkBuns
     
     // write code here above this line
 }
